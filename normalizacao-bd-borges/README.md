@@ -1,9 +1,5 @@
 # Normalização de Base de Dados — Sistema de Gestão de Funcionários
 
-**Universidade Licungo | Curso de Licenciatura em Informática**
-
-**Trabalho II: Normalização até 4ª Forma Normal (4FN)**
-
 ---
 
 ## 📋 Descrição do Projeto
@@ -34,11 +30,8 @@ normalizacao-bd-borges/
 │       └─ Tabelas resultantes de cada fase
 │
 ├── diagramas/
-│   ├── MER_DBDiagram.txt
-│   │   └─ Diagrama MER em formato dbdiagram.io (copia e cola em dbdiagram.io)
-│   │
-│   └── MER_ASCII.txt
-│       └─ Diagrama MER em formato ASCII art para visualização direta
+│   ├── Diagrama.png
+│ 
 │
 ├── sql/
 │   └── schema_normalizacao.sql
@@ -82,20 +75,8 @@ Cada seção inclui:
 - ✓ Características alcançadas
 - ✓ Problemas ainda presentes
 
-### 2. **Diagrama Modelo Entidade-Relacionamento** (`diagramas/`)
 
-#### **MER_DBDiagram.txt** (Recomendado)
-- Formato compatível com **dbdiagram.io**
-- Copia e cola o conteúdo em https://dbdiagram.io/d
-- Renderização automática do diagrama
-- Visualização clara de relacionamentos e cardinalidades
-
-#### **MER_ASCII.txt**
-- Visualização directa em qualquer editor de texto
-- Diagrama em ASCII art
-- Tabelas, atributos e relacionamentos identificados
-
-### 3. **Script SQL** (`sql/schema_normalizacao.sql`)
+### 2. **Script SQL** (`sql/schema_normalizacao.sql`)
 
 Script SQL completo com:
 
